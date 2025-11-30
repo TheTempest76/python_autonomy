@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>SITL Survey Area</name>
+    <description>Sample survey area for ArduPilot SITL default location (Canberra, Australia)</description>
+    <Placemark>
+      <name>Survey Area</name>
+      <description>Rectangular survey area approximately 100m x 80m</description>
+      <Polygon>
+        <extrude>0</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              149.165230,-35.362938,0
+              149.166530,-35.362938,0
+              149.166530,-35.363658,0
+              149.165230,-35.363658,0
+              149.165230,-35.362938,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+      <Style>
+        <LineStyle>
+          <color>ff0000ff</color>
+          <width>3</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>4d0000ff</color>
+        </PolyStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>
