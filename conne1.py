@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# fly a few meters and land using pymavli 
+# fly a few meters and land using pymavli
 from pymavlink import mavutil
 import time
 import math
